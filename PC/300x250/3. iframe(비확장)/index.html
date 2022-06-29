@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <title>BidRich 3Dcube Banner</title>
+        <link rel="stylesheet" href="./style.css">
+        <script
+            defer="defer"
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+        <script defer="defer" src="./script.js"></script>
+    </head>
+    <body>
+        <div id="b-cube-box"  onmouseleave="MouseOut()" onmouseout="clearTimeout(timer)">
+            <div id="bidrich-cube" >
+                <section class="container" onclick="window.open('#')" onmouseover="MouseOn()" onmouseout="clearTimeout(timer)">
+                    <div id="bidrichCube">
+                        <figure class="front">
+                          <img src="https://gougoi.com/preview/img/fifa04.png" alt="">
+                      </figure>
+                      <figure class="back">
+                          <img src="https://gougoi.com/preview/img/fifa03.png" alt="">
+                      </figure>
+                      <figure class="right">
+                          <img src="https://gougoi.com/preview/img/fifa02.png" alt="">
+                      </figure>
+                      <figure class="left">
+                          <img src="https://gougoi.com/preview/img/fifa01.png" alt="">
+                      </figure>
+                      <figure class="top">
+                          <img src="https://gougoi.com/preview/img/fifa05.png" alt="">
+                      </figure>
+                      <figure class="bottom">
+                          <img src="https://gougoi.com/preview/img/fifa06.png" alt="">
+                      </figure>
+                      </div>
+                </section>
+            </div>
+            <!-- Arrow btn-->
+            <ul class="bidrichCube-control">
+                <li id="leftbtn">
+                    <img src="https://gougoi.com/preview/img/chevron-left.png" alt="..."/>
+                </li>
+                <li id="rightbtn">
+                    <img src="https://gougoi.com/preview/img/chevron-right.png" alt=""/>
+                </li>
+            </ul>
+            <ul class="bidrichCube-control control2">
+                <li id="upbtn"><img src="https://gougoi.com/preview/img/chevron-up.png" alt=""/></li>
+                <li id="downbtn"><img src="https://gougoi.com/preview/img/chevron-down.png" alt=""/></li>
+            </ul>
+            <!-- infomark -->
+            <div id="BIDRICH_InfoMark_box" style="position: absolute;top:5px;right:5px;width: 15px;height: 15px;">
+                <div id="BIDRICH_InfoMark">
+                        <a href="https://gougoi.com" target="_blanck" style="width: 15px; height: 15px;">
+                            <img src="https://gougoi.contentcave.co.kr/icon/info-icon.png"  id="info_icon"style="position:absolute;width: 15px;height: 15px;right: 0;"/>
+                            <img src="https://gougoi.contentcave.co.kr/icon/advertis-icon.png" id="advertis_icon" style="position: absolute; width: 117px; height: 15px;right:0;display:none;"/>    
+                        </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
