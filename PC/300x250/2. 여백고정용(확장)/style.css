@@ -34,7 +34,7 @@
 .box_close{cursor: pointer; width: 24px;height: 24px;background: rgba(000, 000, 000, 0.5);border-style: none;margin-left: 30px;}
 .box_close img, .box_close_none img{width:100%;}
 .bidrichCube-control{display:flex;  position: absolute;width: 100%;bottom: -76px;justify-content: space-around;list-style: none;margin:0;}
-.bidrichCube-control li{width: 30px;height: 30px;background: rgba(000, 000, 000, 0.5); border-radius: 10px;}
+.bidrichCube-control li{width: 30px;height: 30px;background: rgba(000, 000, 000, 0.5); border-radius: 10px;cursor: pointer;}
 .bidrichCube-control li img{width: 100% !important;}
 .control2{flex-direction: column;bottom: unset !important;right: -64px; justify-content: space-around !important;width: auto !important;top:30px;height: 100%;}
 .cubestop{animation-play-state: paused !important;}
