@@ -26,6 +26,7 @@
 #bidrichCube .left   { transform: rotateY( -90deg ) translateZ( 100px ); }
 #bidrichCube .top    { transform: rotateX(  90deg ) translateZ( 100px ); }
 #bidrichCube .bottom { transform: rotateX( -90deg ) translateZ( 66px ); }
+#BIDRICH_InfoMark_box:hover #advertis_icon{display: block !important; }
 
 @-webkit-keyframes blink-effect { 0% { opacity: 1; }50% { opacity: 0.2; }100% { opacity: 1; } }
 @keyframes blink-effect { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
