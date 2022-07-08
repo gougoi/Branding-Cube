@@ -27,7 +27,7 @@
 #bidrichCube .bottom { transform: rotateX( -90deg ) translateZ( 100px ); }
 #BIDRICH_InfoMark_box:hover #advertis_icon{display: block !important;}
 .bidrichCube-control{display:flex; position: absolute;z-index: 999; width: 50%;bottom: 5px; justify-content: space-between;list-style: none;}
-.bidrichCube-control li{width: 24px;height: 24px;background: rgba(000, 000, 000, 0.5); border-radius: 5px;}
+.bidrichCube-control li{width: 24px;height: 24px;background: rgba(000, 000, 000, 0.5); border-radius: 5px;  cursor: pointer;}
 .bidrichCube-control li img, .bidrichCube-control li svg{width: 100% !important;}
 .control2{flex-direction: column;bottom: unset !important;right: 5px; justify-content: space-around !important;width: auto !important;top:30px;height: 80%;}
 
