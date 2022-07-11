@@ -60,8 +60,8 @@ $(cubeControl).fadeOut(0);
 
 //mouseover
 function cubePopup(){
-	BidrichCube.style.width = "370px"
-	BidrichCube.style.height = "323px"
+	BidrichCube.style.width = "370px" 
+	BidrichCube.style.height = "323px" 
 	cubeContain.style.transform = 'scale3d(0.9,0.9,0.9)';
 	// close btn show
 	$(closeBtn).fadeIn(300);
